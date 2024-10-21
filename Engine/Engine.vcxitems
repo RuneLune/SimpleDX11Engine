@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{4d015510-4dbd-46c7-84d7-e0480ccb1f49}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)application.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)component.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)entity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game_object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)header.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)scene_manager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)script.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)sprite_renderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)time.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)application.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)component.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)entity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game_object.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)input.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)scene_manager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)script.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)sprite_renderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)time.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)transform.cpp" />
+  </ItemGroup>
+</Project>

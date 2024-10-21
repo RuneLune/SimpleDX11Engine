@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{3E0B2577-65E5-452A-83CA-8F4F412E6BEF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxitems", "{4D015510-4DBD-46C7-84D7-E0480CCB1F49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Window", "Window\Window.vcxproj", "{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,11 +25,23 @@ Global
 		{3E0B2577-65E5-452A-83CA-8F4F412E6BEF}.Release|x64.Build.0 = Release|x64
 		{3E0B2577-65E5-452A-83CA-8F4F412E6BEF}.Release|x86.ActiveCfg = Release|Win32
 		{3E0B2577-65E5-452A-83CA-8F4F412E6BEF}.Release|x86.Build.0 = Release|Win32
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Debug|x64.ActiveCfg = Debug|x64
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Debug|x64.Build.0 = Debug|x64
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Debug|x86.Build.0 = Debug|Win32
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Release|x64.ActiveCfg = Release|x64
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Release|x64.Build.0 = Release|x64
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Release|x86.ActiveCfg = Release|Win32
+		{CC7C7EC8-4DBA-48B2-8968-67C7580404C5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {729869E7-163B-4FBA-8621-521031E3C41D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Engine\Engine.vcxitems*{4d015510-4dbd-46c7-84d7-e0480ccb1f49}*SharedItemsImports = 9
+		Engine\Engine.vcxitems*{cc7c7ec8-4dba-48b2-8968-67c7580404c5}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
